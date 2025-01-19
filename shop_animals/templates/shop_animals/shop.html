@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop products</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <p><a href="/animal/new/">Добавить</a></p>
+        <h1>Добро пожаловать в мой магазин ЖивотныХ!!</h1>
+        <img src="{% static 'img/giraffe.jpg' %}" alt="этот жираф на стероидах" width="500">
+        <img src="{% static 'img/monkey.jpg' %}" alt="" width="450" >
+        <p>Это пример того что мы обрашаемся с животными отлично.</p>
+        <p>А это доказательство того что наши животные самые особенные в мире</p>
+    </div>
+</body>
+</html>
